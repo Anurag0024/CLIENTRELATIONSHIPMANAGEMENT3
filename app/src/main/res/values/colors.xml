@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colormain"> #ccffff</color>
+    <color name="backgroundmain">#000000</color>
+    <color name="startcolor">    #003333 </color>
+    <color name="midcolor">#33ffff</color>
+    <color name="endcolor">  #006666</color>
+    <color name="logincolor">#00ffbf </color>
+    <color name="menubtncolor"> #194d33</color>
+    <color name="sucessful">#ff6666</color>
+    <color name="unsucessful"> #70db70</color>
+</resources>

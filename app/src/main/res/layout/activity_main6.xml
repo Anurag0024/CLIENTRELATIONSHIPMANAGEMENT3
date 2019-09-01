@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradients"
+    android:orientation="vertical"
+    tools:context=".Main6Activity">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradients"
+        android:text="LEADS"
+        android:textAlignment="center"
+        android:textColor="@color/startcolor"
+        android:textSize="45dp" />
+
+    <EditText
+        android:id="@+id/ldid1"
+        style="@style/contactedittext"
+        android:hint="Leads Id..." />
+
+    <EditText
+        android:id="@+id/name1"
+        style="@style/contactedittext"
+        android:hint="Name..." />
+
+    <EditText
+        android:id="@+id/mobno2"
+        style="@style/contactedittext"
+        android:hint="Mobile no...." />
+
+    <EditText
+        android:id="@+id/email2"
+        style="@style/contactedittext"
+        android:hint="Email Id..@gmail.com" />
+
+    <EditText
+        android:id="@+id/comname2"
+        style="@style/contactedittext"
+        android:hint="Company name..." />
+
+    <EditText
+        android:id="@+id/contact2"
+        style="@style/contactedittext"
+        android:hint="Company contact no..." />
+
+
+    <EditText
+        android:id="@+id/newnote2"
+        style="@style/contactedittext"
+        android:hint=" NEW NOTE..." />
+    <Button
+        android:id="@+id/btndata2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/midcolor"
+        android:text="data"
+        android:textColor="@color/startcolor"
+        android:textSize="30dp" />
+
+
+
+    <Button
+        android:id="@+id/btnsub2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/midcolor"
+        android:text="Submit"
+        android:textColor="@color/startcolor"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnexit2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/midcolor"
+        android:text="exit"
+        android:textColor="@color/startcolor"
+        android:textSize="30dp" />
+
+
+</LinearLayout>

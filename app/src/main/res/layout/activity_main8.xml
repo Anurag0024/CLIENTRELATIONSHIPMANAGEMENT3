@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main8Activity"
+    android:background="@drawable/gradients">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradients"
+        android:text="SEARCH COMPANY"
+        android:textAlignment="center"
+        android:textColor="@color/startcolor"
+        android:textSize="40dp" />
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contact......."
+        android:text="contact" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="79dp"
+        android:text="company details"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/comname4"
+        style="@style/contactedittext"
+        android:hint="COMPANY NAME......." />
+
+    <Button
+        android:id="@+id/btnsercom"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/gradients"
+        android:text="Search company" />
+
+
+    <EditText
+        android:id="@+id/contact4"
+        style="@style/contactedittext"
+        android:hint="Company contact No..." />
+
+    <Button
+        android:id="@+id/btncall"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/gradients"
+        android:text="CALL" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/gradients"
+        android:text="BACK" />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradients"
+    android:orientation="vertical"
+    tools:context=".reportActivity">
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradients"
+        android:text="REPORT"
+        android:textAlignment="center"
+        android:textColor="@color/startcolor"
+        android:textSize="60dp" />
+
+    <Button
+        android:id="@+id/b55"
+        style="@style/menubuttonstyle"
+        android:text="all contacts" />
+
+    <Button
+        android:id="@+id/b56"
+        style="@style/menubuttonstyle"
+        android:text="all leads" />
+
+    <Button
+        android:id="@+id/b57"
+        style="@style/menubuttonstyle"
+        android:text="all company" />
+
+    <Button
+        android:id="@+id/b58"
+        style="@style/menubuttonstyle"
+        android:text=" all apportunity" />
+
+    <Button
+        android:id="@+id/b59"
+        style="@style/menubuttonstyle"
+        android:text="back" />
+
+
+</LinearLayout>

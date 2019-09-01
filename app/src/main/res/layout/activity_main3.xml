@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradients"
+    tools:context=".Main3Activity">
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREDITS"
+        android:textAlignment="center"
+        android:textColor="@color/startcolor"
+        android:textSize="60dp"
+        android:background="@drawable/gradients"/>
+
+    <Button
+        android:id="@+id/b4"
+        style="@style/menubuttonstyle"
+        android:text="Dashboard" />
+
+    <Button
+        android:id="@+id/b5"
+        style="@style/menubuttonstyle"
+        android:text="Contacts" />
+
+    <Button
+        android:id="@+id/b6"
+        style="@style/menubuttonstyle"
+        android:text="Leads" />
+
+    <Button
+        android:id="@+id/b7"
+        style="@style/menubuttonstyle"
+        android:text="opportunity" />
+
+    <Button
+        android:id="@+id/b89"
+        style="@style/menubuttonstyle"
+        android:text="COMPANY" />
+
+    <Button
+        android:id="@+id/b8"
+        style="@style/menubuttonstyle"
+        android:text="search company" />
+
+    <Button
+        android:id="@+id/b88"
+        style="@style/menubuttonstyle"
+        android:text="report" />
+
+    <Button
+        android:id="@+id/b9"
+        style="@style/menubuttonstyle"
+        android:text="logout" />
+
+
+</LinearLayout>

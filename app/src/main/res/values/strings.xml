@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CLIENT RELATIONSHIP MANAGEMENT</string>
+    <string name="sucessful">SUCESSFUL:-</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="amount">AMOUNT:-</string>
+    <string name="rs">Rs.</string>
+
+    <string-array name="integer">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+</resources>

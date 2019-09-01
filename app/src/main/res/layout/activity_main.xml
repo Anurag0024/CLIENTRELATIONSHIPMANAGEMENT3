@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundmain"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/midcolor"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="CLIENT RELATIONSHIP MANAGEMENT"
+        />
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="600dp"
+        android:layout_margin="17dp"
+        android:src="@drawable/crmlogo"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/gradients"
+        android:text="login"
+        android:textAlignment="center"
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/gradients"
+        android:text="Exit"
+        android:textAlignment="center"
+        android:textSize="32dp" />
+
+
+</RelativeLayout>
